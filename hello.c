@@ -2,12 +2,14 @@
 
 #define NITER 10
 
+int i;					/* an integer */
+const char *str = "Hello World";
+
 int
 main()
 {
-   const char *str = "Hello World";
    printf("What I tell you %d times is true\n", NITER);
-   for (int i = 0; i < NITER; ++i) {
+   for (i = 0; i < NITER; ++i) {
       printf("%d %s\n", i, str);
    }
 }
