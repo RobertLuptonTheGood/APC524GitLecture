@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int i;					/* an integer */
-const char *str = "Hello World";
+const char *str = "Goodbye Universe";
 
 int
 main()
