@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-unsigned int i;				/* an unsigned integer */
+unsigned short int i;			/* counter */
 const char *str = "Goodbye Universe";
 
 int
