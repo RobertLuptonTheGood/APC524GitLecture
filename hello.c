@@ -11,4 +11,6 @@ main(int ac, const char **av)
    for (int i = 0; i < niter; ++i) {
       printf("%d %s\n", i, str);
    }
+
+   return 0;
 }
